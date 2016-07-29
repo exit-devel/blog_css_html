@@ -1,0 +1,97 @@
+body {
+    background-image: url(../img/background.jpg);
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+ul.menu a {
+    color: cornflowerblue;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+h2.arTitle a {
+    color: cornflowerblue;
+    text-decoration: none;
+    font-style: italic;
+    border-bottom: 1px solid cadetblue;
+}
+
+.arBackColor {
+    background-color: beige;
+}
+
+a.fullArt:hover {
+    color: cadetblue;
+    text-decoration: none;
+}
+
+a.comments {
+    color: cadetblue;
+}
+
+h2.article {
+    text-align: center;
+}
+
+p.parag:first-letter {
+    color: brown;
+    font-style: serif;
+    font-size: 20pt;
+}
+
+.list1 li {
+    list-style-image: url(../img/list1.png);
+    
+    background-color: beige;
+    font-size: 19pt;
+    width: 200px;
+}
+
+.list2 li {
+    list-style-image: url(../img/list2.png);
+    background-color: blanchedalmond;
+    font-size: 15pt;
+    width: 200px;
+}
+
+.new:after {
+    background-color: red;
+    color: #fff;
+    content: " new!";
+}
+
+body.gallery {
+    background-image: url(../img/BG-gallery.png);
+    background-repeat: repeat;
+}
+
+img {
+    border: 4px ridge aquamarine;
+}
+
+img:hover {
+    border: 4px solid transparent;
+}
+
+input[type="text"] {
+    width: 170px;
+}
+
+input[type="email"]:hover {
+    background-color: yellowgreen;
+    color: blue;
+}
+
+input[type="submit"]:active {
+    background-color: chartreuse;
+}
+
+input[type="reset"]:active {
+    background-color: crimson;
+}
+
+input[name="lastName"], [name="secondName"], [name="firstName"] {
+    text-transform: capitalize;
+}

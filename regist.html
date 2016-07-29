@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Мой Блог</title>
+        <meta charset="utf-8">
+        <link 
+              rel="stylesheet"
+              href="css/style.css"
+              type="text/css"/>
+    </head>
+    <body>
+        <header>
+            <h2>Регистрация</h2>
+        </header>
+        <ul class="menu">
+            <li><a href="articles/articles.html">Статьи</a></li>
+            <li><a href="catalog/catalog.html">Каталог</a></li>
+            <li><a href="gallery/gallery.html">Галерея изображений</a></li>
+            <li>Регистрация</li>
+            <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+        <br/>
+        <form>
+            <fieldset>
+                <legend>Форма регистрации</legend>
+                <p><label for="lastName">Фамилия</label><br>
+                    <input type="text" name="lastName" size="20"></p>
+                <p><label for="firstName">Имя</label><br>
+                    <input type="text" name="firstName" size="20"></p>
+                <p><label for="secondName">Отчество</label><br>
+                    <input type="text" name="secondName" size="30"></p>
+                <p><label for="photo">Добавьте фотографию</label><br>
+                    <input type="file" name="photo"></p>
+                <p><label for="mail">Адрес электронной почты</label><br>
+                    <input type="email" name="mail" size="25"></p>
+                <p><label for="pass">Пароль</label><br>
+                    <input type="password" name="pass" size="20"></p>
+                <p><label for="site">Адрес сайта</label><br>
+                    <input type="text" name="site" size="40" value="http://"></p>
+                <p><label for="gender">Ваш пол</label><br>
+                    <input type="radio" name="gender" value="М">Мужской
+                    <input type="radio" name="gender" value="Ж">Женский</p>
+                <p><label for="birthday">Выберите дату рождения</label><br>
+                    <input type="date" name="birthday"></p>
+                <p><label for="option">Блюда какой кухни вы предпочитаете?</label><br>
+                    <input type="checkbox" name="option1" value="a1">Русской<br>
+                    <input type="checkbox" name="option2" value="a2">Европейской<br>
+                    <input type="checkbox" name="option3" value="a3">Тайской<br>
+                    <input type="checkbox" name="option4" value="a4">Японской<br>
+                    <input type="checkbox" name="option5" value="a5">Мексиканской</p>
+                <p><label for="aboutSelf">Расскажите о себе</label><br>
+                    <textarea name="aboutSelf" cols="100" rows="5">
+                    </textarea></p>
+                <br>
+                <input type="submit" value="Зарегистрироваться">
+                <input type="reset" value="Очистить форму">
+            </fieldset>
+        </form>
+        <footer>
+            &copy; Александр Ерёмин
+        </footer>
+    </body>
+</html>
