@@ -22,38 +22,68 @@
         <br/>
         <form>
             <fieldset>
-                <legend>Форма регистрации</legend>
-                <p><label for="lastName">Фамилия</label><br>
-                    <input type="text" name="lastName" size="20"></p>
-                <p><label for="firstName">Имя</label><br>
-                    <input type="text" name="firstName" size="20"></p>
-                <p><label for="secondName">Отчество</label><br>
-                    <input type="text" name="secondName" size="30"></p>
-                <p><label for="photo">Добавьте фотографию</label><br>
-                    <input type="file" name="photo"></p>
-                <p><label for="mail">Адрес электронной почты</label><br>
-                    <input type="email" name="mail" size="25"></p>
-                <p><label for="pass">Пароль</label><br>
-                    <input type="password" name="pass" size="20"></p>
-                <p><label for="site">Адрес сайта</label><br>
-                    <input type="text" name="site" size="40" value="http://"></p>
-                <p><label for="gender">Ваш пол</label><br>
-                    <input type="radio" name="gender" value="М">Мужской
-                    <input type="radio" name="gender" value="Ж">Женский</p>
-                <p><label for="birthday">Выберите дату рождения</label><br>
-                    <input type="date" name="birthday"></p>
-                <p><label for="option">Блюда какой кухни вы предпочитаете?</label><br>
-                    <input type="checkbox" name="option1" value="a1">Русской<br>
-                    <input type="checkbox" name="option2" value="a2">Европейской<br>
-                    <input type="checkbox" name="option3" value="a3">Тайской<br>
-                    <input type="checkbox" name="option4" value="a4">Японской<br>
-                    <input type="checkbox" name="option5" value="a5">Мексиканской</p>
-                <p><label for="aboutSelf">Расскажите о себе</label><br>
-                    <textarea name="aboutSelf" cols="100" rows="5">
-                    </textarea></p>
-                <br>
-                <input type="submit" value="Зарегистрироваться">
-                <input type="reset" value="Очистить форму">
+                <table>
+                    <tr>
+                        <th colspan="2">
+                            <label>Форма регистрации</label>
+                        </th>
+                    </tr>
+                    <tr>
+                        <p><td><label for="lastName">Фамилия</label></td>
+                            <td><input type="text" name="lastName" size="20"></td></p>
+                    </tr>
+                    <tr>
+                        <p><td><label for="firstName">Имя</label></td>
+                            <td><input type="text" name="firstName" size="20"></td></p>
+                    </tr>
+                    <tr>
+                        <p><td><label for="secondName">Отчество</label></td>
+                            <td><input type="text" name="secondName" size="30"></td></p>
+                    </tr>
+                    <tr>
+                        <p><td><label for="photo">Добавьте фотографию</label></td>
+                            <td><input type="file" name="photo"></td></p>
+                    </tr>
+                    <tr>
+                        <p><td><label for="mail">Адрес электронной почты</label></td>
+                            <td><input type="email" name="mail" size="20"></td></p>
+                    </tr>
+                    <tr>
+                        <p><td><label for="pass">Пароль</label></td>
+                            <td><input type="password" name="pass" size="20"></td></p>
+                    </tr>
+                    <tr>
+                        <p><td><label for="site">Адрес сайта</label></td>
+                            <td><input type="text" name="site" size="40" value="http://"></td></p>
+                    </tr>
+                    <tr>
+                        <p><td><label for="gender">Ваш пол</label></td>
+                            <td><input type="radio" name="gender" value="М">Мужской<br>
+                            <input type="radio" name="gender" value="Ж">Женский</td></p>
+                    </tr>
+                    <tr>
+                        <p><td><label for="birthday">Выберите дату рождения</label></td>
+                            <td><input type="date" name="birthday"></td></p>
+                    </tr>
+                    <tr>
+                        <p><td><label for="option">Блюда какой кухни <br>вы предпочитаете?</label></td>
+                            <td><input type="checkbox" name="option1" value="a1">Русской<br>
+                            <input type="checkbox" name="option2" value="a2">Европейской<br>
+                            <input type="checkbox" name="option3" value="a3">Тайской<br>
+                            <input type="checkbox" name="option4" value="a4">Японской<br>
+                            <input type="checkbox" name="option5" value="a5">Мексиканской</td></p>
+                    </tr>
+                    <tr>
+                        <p><td><label for="aboutSelf">Расскажите о себе</label></td>
+                            <td><textarea name="aboutSelf" cols="100" rows="5">
+                            </textarea></td></p>
+                    </tr>
+                    <br>
+                    <tr>
+                        <td><input type="submit" value="Зарегистрироваться"></td>
+                        <td><input type="reset" value="Очистить форму"></td>
+                    </tr>
+                </table>
             </fieldset>
         </form>
         <footer>

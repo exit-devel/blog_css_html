@@ -95,3 +95,13 @@ input[type="reset"]:active {
 input[name="lastName"], [name="secondName"], [name="firstName"] {
     text-transform: capitalize;
 }
+
+table {
+    border-spacing: 2px;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid cornflowerblue;
+    padding: 2px;
+}
